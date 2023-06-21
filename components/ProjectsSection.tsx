@@ -34,7 +34,7 @@ const projects = [
       "I took on the challenge of building a random design I found on the internet using React. Leveraging the power of this JavaScript library, I meticulously crafted the layout, components, and interactivity of the website. This project not only honed my React skills but also showcased my ability to bring designs to life in a dynamic and efficient manner.",
     image: "/Jobfinder.png",
     github: "https://github.com/samuelalison/monsters-rolodex",
-    link: "https://monsters-rolodex-plum.vercel.app/",
+    link: "jobwala-samuelalison.vercel.app",
   },
   {
     name: "Monsters Rolodex",
