@@ -14,6 +14,14 @@ const projects = [
     link: "https://crwn-clothing-v2-wine.vercel.app/",
   },
   {
+    name: "Car-Showcase-App",
+    description:
+    "I developed a car showcase application using Next.js and TypeScript, enhancing the UI with the Tailwind CSS library. This combination allowed for efficient styling and responsive design. Tailwind CSS provided pre-built components and utility classes, ensuring consistent and customizable styles throughout the app. The integration of Tailwind CSS added a modern and elegant touch to the visually appealing user interface, enhancing the overall user experience of the car showcase platform.",
+    image: "/car-showcase.png",
+    github: "https://github.com/samuelalison/crwn-clothing-v2",
+    link: "https://car-showcase-two-inky.vercel.app/",
+  },
+  {
     name: "Todo-List App",
     description: "I developed a to-do list application as a means to assess and enhance my proficiency in React programming..",
     image: "/2.png",
