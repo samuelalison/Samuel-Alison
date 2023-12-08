@@ -2,6 +2,7 @@
 import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
+// import { Link as ScrollLink } from 'react-scroll';
 import { HiArrowDown } from "react-icons/hi"
 
 const HeroSection = () => {
@@ -49,7 +50,9 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce" />
+            <span>
+            <HiArrowDown size={35} className="animate-bounce" />
+            </span>
         </Link>
       </div>
     </section>
