@@ -24,6 +24,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/AboutSection.tsx", "components/Footer.tsx", "components/HeroSection.tsx", "components/Navbar.tsx", "components/ProjectsSection.tsx", "components/SlideUp.tsx"],
   "exclude": ["node_modules"]
 }
