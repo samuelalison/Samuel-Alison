@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
+import { Element, Link as ScrollLink, scroller } from 'react-scroll';
 
 const HeroSection = () => {
   return (
@@ -40,8 +41,9 @@ const HeroSection = () => {
           </Link>
         </div>
       </div>
+
       <div className="flex flex-row items-center text-center justify-center ">
-        <Link
+        <ScrollLink
           to="about"
           activeClass="active"
           spy={true}
@@ -49,8 +51,8 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          {/* <HiArrowDown size={35} className="animate-bounce" /> */}
-        </Link>
+          <HiArrowDown size={35} className="animate-bounce" />
+        </ScrollLink>
       </div>
     </section>
   )
