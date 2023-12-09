@@ -1,7 +1,7 @@
 "use client" // this is a client component
 import React from "react"
 import { useState } from "react"
-import { Link } from "react-scroll/modules"
+import { Link } from "react-scroll"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
@@ -59,7 +59,7 @@ export default function Navbar() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 cursor-pointer">
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link
