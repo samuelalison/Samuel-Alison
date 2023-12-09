@@ -37,12 +37,12 @@ export default function Navbar() {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link to="home">
+            <a href="home">
               <div className="container flex items-center space-x-2">
                 <h2 className="text-2xl font-bold">Samuel Alison</h2>
               </div>
-            </Link>
-            <div className="md:hidden">
+            </a>
+            <div className="md:hidden">~
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
