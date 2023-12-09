@@ -1,14 +1,14 @@
 "use client" // this is a client component
 import React from "react";
 import Image from "next/image";
-import { Link as ScrollLink } from "react-scroll";
+// import { Link as ScrollLink, Element } from "react-scroll";
 import { Link } from "react-scroll";
-import { HiArrowDown } from "react-icons/hi";
+// import { HiArrowDown } from "react-icons/hi";
 
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-28 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
             src="/handsome.jpeg"
@@ -42,20 +42,17 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="flex flex-row items-center text-center justify-center ">
-      <ScrollLink
+      {/* <div className="flex flex-row items-center text-center justify-center "> */}
+      {/* <ScrollLink
           to="about"
           activeClass="active"
           spy={true}
           smooth={true}
           offset={-100}
           duration={500}
-        >
-          <div>
-            <HiArrowDown size={35} className="animate-bounce" />
-          </div>
-        </ScrollLink>
-      </div>
+          element={() => <HiArrowDown size={35} className="animate-bounce" />}
+        /> */}
+      {/* </div> */}
     </section>
   )
 }
