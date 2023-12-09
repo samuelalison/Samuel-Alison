@@ -37,7 +37,7 @@ import Footer from "@/components/Footer";
 import { ThemeProvider } from "next-themes";
 
 // Define the RootLayout component
-const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export default function RootLayout(props: React.PropsWithChildren)  {
   return (
     <html lang="en">
     <>
@@ -50,7 +50,7 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       <body className="dark:bg-stone-900">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
-          {children}
+          {props.children}
           <Footer />
         </ThemeProvider>
       </body>
@@ -59,7 +59,7 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   );
 };
 
-export default RootLayout;
+// export default RootLayout;
 
 
 
