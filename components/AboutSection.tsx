@@ -39,8 +39,8 @@ const AboutSection = () => {
             <br />
             <p>
               I graduated from the University of Lagos, in 2019
-              with a BSc in Philosophy, moved into the Tech space in 2021, and have been working in the
-              field ever since.
+              with a BSc in Philosophy, moved into the Tech space in 2020, and have been working in the
+              field since 2021.
             </p>
             <br />
             <p>

@@ -32,6 +32,8 @@ export default function Navbar() {
   const currentTheme = theme === "system" ? systemTheme : theme
   const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
+
+  
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
@@ -42,7 +44,7 @@ export default function Navbar() {
                 <h2 className="text-2xl font-bold">Samuel Alison</h2>
               </div>
             </a>
-            <div className="md:hidden">~
+            <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
